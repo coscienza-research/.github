@@ -20,15 +20,15 @@ Our primary research focus is uncovering the **emergent information-processing c
 
 ---
 
-### 📦 Featured Scientific Repositories & Libraries
+### 📦 Featured Repositories
 
-The following open-source libraries provide reference implementations, simulation engines, and theoretical derivation suites accompanying our publications:
+The following open-source repositories host the numerical implementations, simulation engines, and theoretical derivation toolkits developed in our lab:
 
-| Repository | Focus & Capabilities | Key Publication / Reference |
+| Repository | Description | Ecosystem |
 | :--- | :--- | :--- |
-| **[`dlam-mc-core`](https://github.com/coscienza-research/dlam-mc-core)** | **Dreaming $L$-directional Associative Memory (DLAM)**<br>High-performance Monte Carlo simulation engine (synchronous Glauber dynamics, unlearning/dreaming kernels, pattern disentanglement) + symbolic Wolfram Language (`LAMsym`) package deriving replica-symmetric free-energy landscapes for arbitrary $L$. | *Neural Networks* (2026)<br>[DOI: 10.1016/j.neunet.2026.109729](https://doi.org/10.1016/j.neunet.2026.109729)<br>[arXiv:2605.13721](https://arxiv.org/abs/2605.13721) |
-| **[`mtam_layers`](https://github.com/coscienza-research/mtam_layers)** | **Multi-modal Transformer Associative Memory (mTAM)**<br>Differentiable PyTorch library implementing Consensus Split-Bank Attention (CSA) and Entropy-Gated Consensus (EG-CSA) for multi-modal associative binding and energy descent. | *ICLR 2026 Workshop on New Frontiers in Associative Memories*<br>[OpenReview Forum](https://openreview.net/forum?id=ZTnAvMRFyU) |
-| **[`exponential-lam-engine`](https://github.com/coscienza-research/exponential-lam-engine)** | **Exponential LAM: Multilayer Hetero-Associative Engine**<br>GPU-accelerated PyTorch and reference NumPy engines for multi-layer exponential networks with critical capacity $P_c \sim e^{N \rho_L}$ across synthetic and biological sequences. | *arXiv Preprint* (2026)<br>[arXiv:2607.29554](https://arxiv.org/abs/2607.29554)<br>[DOI: 10.48550/arXiv.2607.29554](https://doi.org/10.48550/arXiv.2607.29554) |
+| **[`dlam-mc-core`](https://github.com/coscienza-research/dlam-mc-core)** | **Dreaming $L$-directional Associative Memory (DLAM)**<br>High-performance Monte Carlo simulation engine (synchronous Glauber dynamics, unlearning/dreaming kernels, pattern disentanglement) along with a symbolic Wolfram Language (`LAMsym`) package for arbitrary-$L$ replica-symmetric free-energy derivations. | Python · NumPy · Wolfram Language |
+| **[`mtam_layers`](https://github.com/coscienza-research/mtam_layers)** | **Multi-modal Transformer Associative Memory (mTAM)**<br>Differentiable PyTorch library implementing Consensus Split-Bank Attention (CSA) and Entropy-Gated Consensus (EG-CSA) for multi-modal associative binding and energy descent. | PyTorch · Python |
+| **[`exponential-lam-engine`](https://github.com/coscienza-research/exponential-lam-engine)** | **Exponential LAM: Multilayer Hetero-Associative Engine**<br>GPU-accelerated PyTorch and reference NumPy engines for multi-layer exponential networks with exponential storage capacity $P_c \sim e^{N \rho_L}$. | PyTorch · NumPy · CUDA |
 
 ---
 
@@ -76,59 +76,14 @@ Our active research lines encompass theoretical physics, mathematical modeling, 
 
 | Researcher | Role / Focus | Affiliation | Links |
 | :--- | :--- | :--- | :--- |
-| **Andrea Ladiana** | PhD Student in Mathematics · Associative Networks, Spin Glasses, Fractals | Sapienza University of Rome | [GitHub](https://github.com/andrea-ladiana) · [ResearchGate](https://www.researchgate.net/profile/Andrea-Ladiana) · [Web](https://andrea-ladiana.github.io/) |
 | **Linda Albanese** | Postdoctoral Researcher · Semi-supervised Learning, Disordered Systems | University of Salento / Sapienza | [ResearchGate](https://www.researchgate.net/profile/Linda-Albanese) |
-| **Andrea Alessandrelli** | PhD Student in AI · Multidirectional Memories, Federated Associative Networks | University of Pisa / Sapienza | [GitHub](https://github.com/AndreaAlessandrelli4) · [ResearchGate](https://www.researchgate.net/profile/Andrea-Alessandrelli) |
-| **Andrea Lepre** | PhD / Postdoctoral Fellow · Hetero-associative Learning, Statistical Mechanics | Sapienza University of Rome | [ResearchGate](https://www.researchgate.net/profile/Andrea-Lepre) |
-| **Martino S. Centonze** | Researcher · Machine Learning & Complex Systems | University of Salento | [ResearchGate](https://www.researchgate.net/profile/Martino-Centonze) |
-| **Paulo Duarte Mourão** | Researcher · Statistical Physics & Neural Modeling | Sapienza University of Rome | [ResearchGate](https://www.researchgate.net/profile/Paulo-Mourao) |
-| **Miriam Aquaro** | PhD Researcher · Mathematical Methods & Neural Networks | Sapienza University of Rome | [ResearchGate](https://www.researchgate.net/profile/Miriam-Aquaro) |
 | **Francesco Alemanno** | Researcher / Collaborator · Biological Complexity & Numerical Physics | University of Bologna | [ResearchGate](https://www.researchgate.net/profile/Francesco-Alemanno) |
-
----
-
-### 📚 Selected Publications & Preprints
-
-* **Do Hopfield Networks Dream of Stored Patterns? A Statistical-Mechanical Theory of Dreaming in Multidirectional Associative Memories**  
-  A. Barra, F. Durante, A. Ladiana, M. Marra Solazzo — *Neural Networks*, Vol. 206, 109729 (2026).  
-  [![DOI:10.1016/j.neunet.2026.109729](https://img.shields.io/badge/DOI-10.1016%2Fj.neunet.2026.109729-blue?style=flat-square)](https://doi.org/10.1016/j.neunet.2026.109729) [![arXiv:2605.13721](https://img.shields.io/badge/arXiv-2605.13721-b31b1b?style=flat-square)](https://arxiv.org/abs/2605.13721)  
-  *Official Implementation:* [`dlam-mc-core`](https://github.com/coscienza-research/dlam-mc-core)
-
-* **Semi-supervised Hopfield Model: Theoretical and Numerical Results**  
-  L. Albanese, A. Ladiana, A. Lepre — *Physica A: Statistical Mechanics and its Applications*, 132009 (2026).  
-  [![DOI:10.1016/j.physa.2026.132009](https://img.shields.io/badge/DOI-10.1016%2Fj.physa.2026.132009-blue?style=flat-square)](https://doi.org/10.1016/j.physa.2026.132009) [![arXiv:2607.28173](https://img.shields.io/badge/arXiv-2607.28173-b31b1b?style=flat-square)](https://arxiv.org/abs/2607.28173)
-
-* **Supervised and Unsupervised Learning Protocols in Hetero-associative Neural Networks**  
-  A. Alessandrelli, A. Barra, A. Ladiana, A. Lepre, F. Ricci-Tersenghi — *Physica A: Statistical Mechanics and its Applications*, Vol. 676, 130871 (2025).  
-  [![DOI:10.1016/j.physa.2025.130871](https://img.shields.io/badge/DOI-10.1016%2Fj.physa.2025.130871-blue?style=flat-square)](https://doi.org/10.1016/j.physa.2025.130871)
-
-* **Exponential Capacity in Multilayer Hetero-Associative Neural Networks**  
-  E. Agliari, A. Barra, A. Ladiana, A. Lepre (2026).  
-  [![arXiv:2607.29554](https://img.shields.io/badge/arXiv-2607.29554-b31b1b?style=flat-square)](https://arxiv.org/abs/2607.29554)  
-  *Official Implementation:* [`exponential-lam-engine`](https://github.com/coscienza-research/exponential-lam-engine)
-
-* **The Exact Laplacian Spectrum of the Berker–Ostlund Diamond Lattice**  
-  A. Ladiana — *Journal of Physics A: Mathematical and Theoretical* (2026).  
-  [![DOI:10.1088/1751-8121/aea3c9](https://img.shields.io/badge/DOI-10.1088%2F1751--8121%2Faea3c9-blue?style=flat-square)](https://doi.org/10.1088/1751-8121/aea3c9)
-
-* **Thermodynamic Binding: Freezing Chimeric States in Multi-Modal Associative Memories**  
-  E. Agliari, A. Barra, A. Ladiana, A. Lepre — *ICLR New Frontiers in Associative Memories Workshop* (2026).  
-  [![OpenReview](https://img.shields.io/badge/OpenReview-Forum-8C1D40?style=flat-square)](https://openreview.net/forum?id=ZTnAvMRFyU)  
-  *Official Implementation:* [`mtam_layers`](https://github.com/coscienza-research/mtam_layers)
-
-* **A Federated Many-to-One Hopfield Model for Associative Neural Networks**  
-  A. Alessandrelli, F. Durante, A. Ladiana, A. Lepre (2026).  
-  [![arXiv:2603.19902](https://img.shields.io/badge/arXiv-2603.19902-b31b1b?style=flat-square)](https://arxiv.org/abs/2603.19902)
-
----
-
-### 💻 Scientific Computing Ecosystem
-
-Our code repositories adhere to strict scientific rigor and open science best practices:
-* **Vectorized PyTorch & CUDA Engines:** Differentiable layers and GPU-accelerated Monte Carlo dynamics.
-* **Pure NumPy & SciPy Baselines:** Deterministic, lightweight reference implementations for mathematical physics checks.
-* **Symbolic Mathematica Packages:** Exact analytical derivations of replica-symmetric free energies and saddle-point equations.
-* **Strict Quality Gates:** Automated linting via `ruff`, strict type checking (`mypy`), high test coverage (>90%), and full provenance logging (`CITATION.cff`, SHA-256 parameter digests).
+| **Andrea Alessandrelli** | PhD Student in AI · Multidirectional Memories, Federated Associative Networks | University of Pisa / Sapienza | [GitHub](https://github.com/AndreaAlessandrelli4) · [ResearchGate](https://www.researchgate.net/profile/Andrea-Alessandrelli) |
+| **Miriam Aquaro** | PhD Researcher · Mathematical Methods & Neural Networks | Sapienza University of Rome | [ResearchGate](https://www.researchgate.net/profile/Miriam-Aquaro) |
+| **Martino S. Centonze** | Researcher · Machine Learning & Complex Systems | University of Salento | [ResearchGate](https://www.researchgate.net/profile/Martino-Centonze) |
+| **Andrea Ladiana** | PhD Student in Mathematics · Associative Networks, Spin Glasses, Fractals | Sapienza University of Rome | [GitHub](https://github.com/andrea-ladiana) · [ResearchGate](https://www.researchgate.net/profile/Andrea-Ladiana) · [Web](https://andrea-ladiana.github.io/) |
+| **Andrea Lepre** | PhD / Postdoctoral Fellow · Hetero-associative Learning, Statistical Mechanics | Sapienza University of Rome | [ResearchGate](https://www.researchgate.net/profile/Andrea-Lepre) |
+| **Paulo Duarte Mourão** | Researcher · Statistical Physics & Neural Modeling | Sapienza University of Rome | [ResearchGate](https://www.researchgate.net/profile/Paulo-Mourao) |
 
 ---
 
