@@ -20,18 +20,6 @@ Our primary research focus is uncovering the **emergent information-processing c
 
 ---
 
-### 📦 Featured Repositories
-
-The following open-source repositories host the numerical implementations, simulation engines, and theoretical derivation toolkits developed in our lab:
-
-| Repository | Description | Ecosystem |
-| :--- | :--- | :--- |
-| **[`dlam-mc-core`](https://github.com/coscienza-research/dlam-mc-core)** | **Dreaming $L$-directional Associative Memory (DLAM)**<br>High-performance Monte Carlo simulation engine (synchronous Glauber dynamics, unlearning/dreaming kernels, pattern disentanglement) along with a symbolic Wolfram Language (`LAMsym`) package for arbitrary-$L$ replica-symmetric free-energy derivations. | Python · NumPy · Wolfram Language |
-| **[`mtam_layers`](https://github.com/coscienza-research/mtam_layers)** | **Multi-modal Transformer Associative Memory (mTAM)**<br>Differentiable PyTorch library implementing Consensus Split-Bank Attention (CSA) and Entropy-Gated Consensus (EG-CSA) for multi-modal associative binding and energy descent. | PyTorch · Python |
-| **[`exponential-lam-engine`](https://github.com/coscienza-research/exponential-lam-engine)** | **Exponential LAM: Multilayer Hetero-Associative Engine**<br>GPU-accelerated PyTorch and reference NumPy engines for multi-layer exponential networks with exponential storage capacity $P_c \sim e^{N \rho_L}$. | PyTorch · NumPy · CUDA |
-
----
-
 ### 🧭 Research Pillars & Lines of Investigation
 
 Our active research lines encompass theoretical physics, mathematical modeling, and computational neuroscience:
@@ -95,6 +83,16 @@ Our active research lines encompass theoretical physics, mathematical modeling, 
   * [Dipartimento di Matematica "Guido Castelnuovo"](https://www.mat.uniroma1.it/)
 * **ResearchGate Lab:** [Scuderia "Co'Scienza" Lab Page](https://www.researchgate.net/lab/Scuderia-CoScienza-Adriano-Barra)
 * **Lab Outreach & Industry Portal:** [Cò'Scienza: per le imprese](https://adrianobarra.com/cogravescienza-per-le-imprese.html)
+
+---
+
+### 💻 Public Implementations
+
+| Repository | Description | Stack |
+| :--- | :--- | :--- |
+| **[`dlam-mc-core`](https://github.com/coscienza-research/dlam-mc-core)** | Dreaming $L$-directional Associative Memory (DLAM) — Monte Carlo simulation engine (synchronous Glauber dynamics, unlearning/dreaming kernels, pattern disentanglement) and symbolic Wolfram Language (`LAMsym`) package. | Python · NumPy · Wolfram Language |
+| **[`exponential-lam-engine`](https://github.com/coscienza-research/exponential-lam-engine)** | Exponential LAM — GPU-accelerated PyTorch and reference NumPy simulation engines for multilayer hetero-associative networks with exponential storage capacity. | PyTorch · NumPy · CUDA |
+| **[`mtam_layers`](https://github.com/coscienza-research/mtam_layers)** | Multi-modal Transformer Associative Memory (mTAM) — Differentiable PyTorch library implementing Consensus Split-Bank Attention (CSA) and Entropy-Gated Consensus (EG-CSA) for multi-modal associative binding. | PyTorch · Python |
 
 ---
 
