@@ -20,6 +20,18 @@ Our primary research focus is uncovering the **emergent information-processing c
 
 ---
 
+### 📦 Featured Scientific Repositories & Libraries
+
+The following open-source libraries provide reference implementations, simulation engines, and theoretical derivation suites accompanying our publications:
+
+| Repository | Focus & Capabilities | Key Publication / Reference |
+| :--- | :--- | :--- |
+| **[`dlam-mc-core`](https://github.com/coscienza-research/dlam-mc-core)** | **Dreaming $L$-directional Associative Memory (DLAM)**<br>High-performance Monte Carlo simulation engine (synchronous Glauber dynamics, unlearning/dreaming kernels, pattern disentanglement) + symbolic Wolfram Language (`LAMsym`) package deriving replica-symmetric free-energy landscapes for arbitrary $L$. | *Neural Networks* (2026)<br>[DOI: 10.1016/j.neunet.2026.109729](https://doi.org/10.1016/j.neunet.2026.109729)<br>[arXiv:2605.13721](https://arxiv.org/abs/2605.13721) |
+| **[`mtam_layers`](https://github.com/coscienza-research/mtam_layers)** | **Multi-modal Transformer Associative Memory (mTAM)**<br>Differentiable PyTorch library implementing Consensus Split-Bank Attention (CSA) and Entropy-Gated Consensus (EG-CSA) for multi-modal associative binding and energy descent. | *ICLR 2026 Workshop on New Frontiers in Associative Memories*<br>[OpenReview Forum](https://openreview.net/forum?id=ZTnAvMRFyU) |
+| **[`exponential-lam-engine`](https://github.com/coscienza-research/exponential-lam-engine)** | **Exponential LAM: Multilayer Hetero-Associative Engine**<br>GPU-accelerated PyTorch and reference NumPy engines for multi-layer exponential networks with critical capacity $P_c \sim e^{N \rho_L}$ across synthetic and biological sequences. | *arXiv Preprint* (2026)<br>[arXiv:2607.29554](https://arxiv.org/abs/2607.29554)<br>[DOI: 10.48550/arXiv.2607.29554](https://doi.org/10.48550/arXiv.2607.29554) |
+
+---
+
 ### 🧭 Research Pillars & Lines of Investigation
 
 Our active research lines encompass theoretical physics, mathematical modeling, and computational neuroscience:
@@ -79,7 +91,8 @@ Our active research lines encompass theoretical physics, mathematical modeling, 
 
 * **Do Hopfield Networks Dream of Stored Patterns? A Statistical-Mechanical Theory of Dreaming in Multidirectional Associative Memories**  
   A. Barra, F. Durante, A. Ladiana, M. Marra Solazzo — *Neural Networks*, Vol. 206, 109729 (2026).  
-  [![DOI:10.1016/j.neunet.2026.109729](https://img.shields.io/badge/DOI-10.1016%2Fj.neunet.2026.109729-blue?style=flat-square)](https://doi.org/10.1016/j.neunet.2026.109729) [![arXiv:2605.13721](https://img.shields.io/badge/arXiv-2605.13721-b31b1b?style=flat-square)](https://arxiv.org/abs/2605.13721)
+  [![DOI:10.1016/j.neunet.2026.109729](https://img.shields.io/badge/DOI-10.1016%2Fj.neunet.2026.109729-blue?style=flat-square)](https://doi.org/10.1016/j.neunet.2026.109729) [![arXiv:2605.13721](https://img.shields.io/badge/arXiv-2605.13721-b31b1b?style=flat-square)](https://arxiv.org/abs/2605.13721)  
+  *Official Implementation:* [`dlam-mc-core`](https://github.com/coscienza-research/dlam-mc-core)
 
 * **Semi-supervised Hopfield Model: Theoretical and Numerical Results**  
   L. Albanese, A. Ladiana, A. Lepre — *Physica A: Statistical Mechanics and its Applications*, 132009 (2026).  
@@ -91,7 +104,8 @@ Our active research lines encompass theoretical physics, mathematical modeling, 
 
 * **Exponential Capacity in Multilayer Hetero-Associative Neural Networks**  
   E. Agliari, A. Barra, A. Ladiana, A. Lepre (2026).  
-  [![arXiv:2607.29554](https://img.shields.io/badge/arXiv-2607.29554-b31b1b?style=flat-square)](https://arxiv.org/abs/2607.29554)
+  [![arXiv:2607.29554](https://img.shields.io/badge/arXiv-2607.29554-b31b1b?style=flat-square)](https://arxiv.org/abs/2607.29554)  
+  *Official Implementation:* [`exponential-lam-engine`](https://github.com/coscienza-research/exponential-lam-engine)
 
 * **The Exact Laplacian Spectrum of the Berker–Ostlund Diamond Lattice**  
   A. Ladiana — *Journal of Physics A: Mathematical and Theoretical* (2026).  
@@ -99,7 +113,8 @@ Our active research lines encompass theoretical physics, mathematical modeling, 
 
 * **Thermodynamic Binding: Freezing Chimeric States in Multi-Modal Associative Memories**  
   E. Agliari, A. Barra, A. Ladiana, A. Lepre — *ICLR New Frontiers in Associative Memories Workshop* (2026).  
-  [![OpenReview](https://img.shields.io/badge/OpenReview-Forum-8C1D40?style=flat-square)](https://openreview.net/forum?id=ZTnAvMRFyU)
+  [![OpenReview](https://img.shields.io/badge/OpenReview-Forum-8C1D40?style=flat-square)](https://openreview.net/forum?id=ZTnAvMRFyU)  
+  *Official Implementation:* [`mtam_layers`](https://github.com/coscienza-research/mtam_layers)
 
 * **A Federated Many-to-One Hopfield Model for Associative Neural Networks**  
   A. Alessandrelli, F. Durante, A. Ladiana, A. Lepre (2026).  
@@ -107,13 +122,13 @@ Our active research lines encompass theoretical physics, mathematical modeling, 
 
 ---
 
-### 💻 Open Source Scientific Software & Toolkits
+### 💻 Scientific Computing Ecosystem
 
-This GitHub space hosts the open, reproducible codebases accompanying our research papers:
-* **Disordered Systems Engines:** Fast Monte Carlo simulation pipelines, cavity field solvers, and replica-symmetric/RSB numerical evaluation algorithms.
-* **Modern Associative Networks:** PyTorch and CUDA implementations for multi-layer hetero-associative networks, dense associative memories (DAM), and multidirectional Hopfield models.
-* **Dreaming & Unlearning Algorithms:** Implementations of sleep-inspired consolidation and pattern disentanglement routines for small-dataset learning.
-* **Spectral Analysis on Graphs:** Analytical solvers and numerical algorithms for graph Laplacians on fractal and inhomogeneous networks.
+Our code repositories adhere to strict scientific rigor and open science best practices:
+* **Vectorized PyTorch & CUDA Engines:** Differentiable layers and GPU-accelerated Monte Carlo dynamics.
+* **Pure NumPy & SciPy Baselines:** Deterministic, lightweight reference implementations for mathematical physics checks.
+* **Symbolic Mathematica Packages:** Exact analytical derivations of replica-symmetric free energies and saddle-point equations.
+* **Strict Quality Gates:** Automated linting via `ruff`, strict type checking (`mypy`), high test coverage (>90%), and full provenance logging (`CITATION.cff`, SHA-256 parameter digests).
 
 ---
 
