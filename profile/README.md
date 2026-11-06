@@ -73,10 +73,10 @@ Our investigative lines encompass fundamental theoretical physics, computational
   *Co-Founder & Group Leader*  
   *Research focus:* Associative neural networks, place & grid cell continuous attractors, extensively parallel processing, dreaming phenomena in associative models, reaction kinetics, and ultrametric fluctuations in disordered systems.  
   🌐 [Personal Website](https://adrianobarra.com) · [Sapienza Profile](https://corsidilaurea.uniroma1.it/it/users/adrianobarrauniroma1it) · [ResearchGate Profile](https://www.researchgate.net/profile/Adriano-Barra)
-* **[Prof. Elena Agliari](https://corsidilaurea.uniroma1.it/it/users/elenaagliariuniroma1it)** — Full Professor of Mathematical Physics, Sapienza University of Rome  
+* **[Prof. Elena Agliari](https://corsidilaurea.uniroma1.it/it/users/elenaagliariuniroma1it)** — Associate Professor of Mathematical Physics, Sapienza University of Rome  
   *Co-Founder & Group Leader*  
   *Research focus:* Mathematical theory of neural networks, first-passage phenomena and transport in complex topologies, statistical mechanics of disordered systems, and biological cybernetics.  
-  🌐 [Sapienza Profile](https://corsidilaurea.uniroma1.it/it/users/elenaagliariuniroma1it) · [ResearchGate Profile](https://www.researchgate.net/profile/Elena-Agliari)
+  🌐 [Personal Website](https://elenaagliari.weebly.com/) · [Sapienza Profile](https://corsidilaurea.uniroma1.it/it/users/elenaagliariuniroma1it) · [ResearchGate Profile](https://www.researchgate.net/profile/Elena-Agliari)
 * **[Prof. Alberto Fachechi](https://albertofachechi.github.io/)** — Permanent Researcher & Head of Scientific Computing, Sapienza University of Rome  
   *Senior Scientist*  
   *Research focus:* Statistical learning theory, spin-glass physics, high-dimensional probability, and large-scale computational simulations.  
